@@ -1,0 +1,18 @@
+/* 6. Define a css class with the name as “box” */
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px; /* Overall 10px margin */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black; /* 1 px border in black color */
+    border-radius: 10px; /* A border radius of 10px */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Added for better visual separation */
+}
+
+/* 7. Define a css style for html <dt> element using tag selector. */
+dt {
+    font-weight: 500;
+}
