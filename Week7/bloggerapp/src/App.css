@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.st2, .v1, .mystyle1 {
+  border-left: 3px solid green; /* Vertical line as in the image */
+  padding-left: 20px;
+  margin: 0 10px;
+  text-align: left;
+  flex: 1; /* Distribute space evenly */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #333;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+h4 {
+  margin-top: 0;
+  color: #555;
+}
+
+p {
+  font-size: 0.9em;
+  color: #666;
+}
